@@ -23,6 +23,6 @@ kurulum yardımı için: instagram: @zewzack
    (gireceğiniz yol üstteki örnek gibi ise: 'C:\Program Files\chromedriver'
    (doğru çalışıp çalışmadığını anlamak için cmd açıp 'chromedriver' yazdıktan sonra hata almadan çıktı almanız gerekiyor.)
    
-5- üstte bulunan 'oto_pp_degistirici.py' dosyasını indirip python 3.10 ile koddaki belirtilen yerleri kendinize göre düzeltin.
+5- üstte bulunan 'pp_degistirici.py' dosyasını indirip python 3.10 ile koddaki belirtilen yerleri kendinize göre düzeltin.
 
 kurulum tamamdır.
