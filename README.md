@@ -3,6 +3,8 @@ ________________________________________________________________________________
 # whatsapp-oto-pp-degistirici
 whatsapp otomatik pp değiştirici. python 3.10 ve selenium / chromedriver ile çalışır.
 
+çalışma prensibi: google chrome driverları ve python'u kullanarak yeni bir chrome penceresi açar, buraya qr kodunuzu okutur ve herhangi bir tuşa bastıktan sonra otomatik olarak belirlediğiniz dosya konumundan rastgele dosyalar çekerek whatsapp profil fotonuzu otomatik değiştirir.
+
 _________________________________________________________________________________________
 
 kurulum yardımı için: instagram: @zewzack
