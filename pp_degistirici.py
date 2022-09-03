@@ -3,14 +3,10 @@
 #   by @zewzack
 #
 from time import sleep
-from typing import ByteString
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.keys import Keys
 import random, os
-import sys
-import time
 
 options = Options()
 options.binary_location = "C:\Program Files\Google\Chrome\Application\chrome.exe"
@@ -44,6 +40,11 @@ for x in range(100):
  sleep(3)
  image_box = driver.find_element("xpath", '//input[@accept="image/gif,image/jpeg,image/jpg,image/png"]')
  image_box.send_keys(filepath)
+ sleep(2)
+
+ for x in range(5):
+    minus_box = driver.find_element("xpath", '//span[@data-icon="minus"]')
+    minus_box.click()
 
  sleep(3)
  send_button = driver.find_element("xpath", '//span[@data-icon="checkmark-large"]')
